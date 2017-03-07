@@ -20,7 +20,8 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    NSArray *imageArr = @[@"h1.jpg",@"h2.jpg",@"h3.jpg",@"h4"];
+//    NSArray *imageArr = @[@"h1.jpg",@"h2.jpg",@"h3.jpg",@"h4"];
+    NSArray *imageArr = @[@"h1.jpg"];
 //    NSArray *imageArr = nil;
     HZScrollView *scrollView = [[HZScrollView alloc] initWithFrame:CGRectMake(0, 64, kScreenSize.width, 200)];
     scrollView.delegate = self;
